@@ -1,0 +1,49 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.0em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #222; 
+}
+.hero {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-color: #000;
+	color: #fff;
+	overflow: hidden;
+}
+
+.hero h1 {
+	margin: 0;
+	opacity: .9;
+}
+
+
+.hero-text {
+	padding: 25px; 
+	text-align: center;
+	width: 100%;
+}
+
+.hero-text p {
+	margin: 0;
+	opacity: .7;
+}
+.header {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.menu {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+  }

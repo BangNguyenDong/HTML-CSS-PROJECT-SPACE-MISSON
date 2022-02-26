@@ -1,0 +1,191 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px 0;
+}
+#menu a{
+    font: 16px/30px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+#menu a.social {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: rgb(30, 31, 30);
+}
+#menu li {
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    top: 670px;
+    left: 700px;
+    font-family: D-DIN-Medium;
+    font-size: 20px;
+    line-height: 38px;
+}
+.text-1 {
+    color: #fff;
+    position: absolute;
+    top: 700px;
+    left: 700px;
+    font-family: D-DIN-Bold;
+    font-size: 25px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+#footer {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #979797;
+    padding: 20px 0;
+}
+#footer {
+    background: #000;
+}
+#footer a.social {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+}
+#footer a {
+    font-family: 12px/24px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+
+}
+#footer span {
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+p:first-of-type {
+    margin-top: 20px;
+}
+p {
+    margin: 15px 0;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-decoration: none;
+}
+p {
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.planet-image-1 {
+    width: 40%;
+    height: 40%;
+    float:right;
+}
+.planet-image-2 {
+    width: 40%;
+    height: 40%;
+    float:left;
+    margin: 0 110px;
+}
+.planet-image-3 {
+    width: 40%;
+    height: 40%;
+    float:right;
+}
+.planet-image-4 {
+    width: 40%;
+    height: 40%;
+    float:left;
+}
+.planet-image-5 {
+    width: 40%;
+    height: 40%;
+    float:right;
+}
+.planet-image-6 {
+    width: 40%;
+    height: 40%;
+    float:left;
+}.planet-image-7 {
+    width: 40%;
+    height: 40%;
+    float:right;
+}
+
+.column-left {
+    display: flex;
+    float: left;
+    width: 42.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-right {
+    display: flex;
+    float: right;
+    width: 42.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    position: relative;
+}
+
+.row:after {
+    position: relative;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-text-left {
+    position: absolute;
+    color: #fff;
+    font-family: D-DIN-Medium;
+    font-size: 20px;
+    line-height: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    left: 100px;
+}
+
+.column-text-right {
+    position: absolute;
+    color: #fff;
+    font-family: D-DIN-Medium;
+    font-size: 20px;
+    line-height: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    right: 100px;
+}
